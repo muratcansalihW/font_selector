@@ -1,0 +1,14 @@
+{
+  "name": "Font Fountain",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite src --base ./"
+  },
+ 
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.3"
+  }
+}
+

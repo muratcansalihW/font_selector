@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <script defer type="module" src="/main.js"></script>
+    <title>TechNarts Frontend Challenge: Font Fountain</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Font Fountain</h1>
+    </header>
+
+    <main>
+      <aside class="sidebar">
+        <h2>Font Listesi</h2>
+        <ul id="font-list" class="font-browser"></ul>
+
+        <hr />
+
+        <h2>Geçmiş</h2>
+        <ul id="history-list" class="font-browser history-browser"></ul>
+      </aside>
+
+      <section class="preview-area">
+        <h2 id="current-font-name">Henüz Bir Font Seçilmedi</h2>
+        <div
+          id="preview-text"
+          contenteditable="true"
+          spellcheck="false"
+          class="editable-text"
+          data-placeholder="Fontunuzu test etmek için buraya yazmaya başlayın..."
+        ></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,351 @@
+:root {
+  --color-bg-dark: #1e1e1e;
+  --color-bg-light: #252526;
+  --color-text-light: #cccccc;
+  --color-accent: #007acc;
+  --font-size-list: 16px;
+  --font-size-preview: 72px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: AbrilFatface;
+  src: url(./fonts/AbrilFatface.ttf);
+}
+@font-face {
+  font-family: Alegreya;
+  src: url(./fonts/Alegreya.ttf);
+}
+@font-face {
+  font-family: AmaticSC;
+  src: url(./fonts/AmaticSC.ttf);
+}
+@font-face {
+  font-family: ArchitectsDaughter;
+  src: url(./fonts/ArchitectsDaughter.ttf);
+}
+@font-face {
+  font-family: Arvo;
+  src: url(./fonts/Arvo.ttf);
+}
+@font-face {
+  font-family: BebasNeue;
+  src: url(./fonts/BebasNeue.ttf);
+}
+@font-face {
+  font-family: Bitter;
+  src: url(./fonts/Bitter.ttf);
+}
+@font-face {
+  font-family: Chivo;
+  src: url(./fonts/Chivo.ttf);
+}
+@font-face {
+  font-family: Comfortaa;
+  src: url(./fonts/Comfortaa.ttf);
+}
+@font-face {
+  font-family: CormorantGaramond;
+  src: url(./fonts/CormorantGaramond.ttf);
+}
+@font-face {
+  font-family: CourierPrime;
+  src: url(./fonts/CourierPrime.ttf);
+}
+@font-face {
+  font-family: CrimsonText;
+  src: url(./fonts/CrimsonText.ttf);
+}
+@font-face {
+  font-family: DancingScript;
+  src: url(./fonts/DancingScript.ttf);
+}
+@font-face {
+  font-family: Exo2;
+  src: url(./fonts/Exo2.ttf);
+}
+@font-face {
+  font-family: FiraCode;
+  src: url(./fonts/FiraCode.ttf);
+}
+@font-face {
+  font-family: Hind;
+  src: url(./fonts/Hind.ttf);
+}
+@font-face {
+  font-family: IBMPlexMono;
+  src: url(./fonts/IBMPlexMono.ttf);
+}
+@font-face {
+  font-family: Inconsolata;
+  src: url(./fonts/Inconsolata_Condensed.ttf);
+}
+@font-face {
+  font-family: IndieFlower;
+  src: url(./fonts/IndieFlower.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/Inter.ttf);
+}
+@font-face {
+  font-family: JetBrainsMono;
+  src: url(./fonts/JetBrainsMono.ttf);
+}
+@font-face {
+  font-family: Karla;
+  src: url(./fonts/Karla.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(./fonts/Lato.ttf);
+}
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(./fonts/LibreBaskerville.ttf);
+}
+@font-face {
+  font-family: Lobster;
+  src: url(./fonts/Lobster.ttf);
+}
+@font-face {
+  font-family: Lora;
+  src: url(./fonts/Lora-Regular.ttf);
+}
+@font-face {
+  font-family: MajorMonoDisplay;
+  src: url(./fonts/MajorMonoDisplay.ttf);
+}
+@font-face {
+  font-family: Merriweather;
+  src: url(./fonts/Merriweather.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./fonts/Montserrat.ttf);
+}
+@font-face {
+  font-family: NotoSans;
+  src: url(./fonts/NotoSans_Condensed.ttf);
+}
+@font-face {
+  font-family: Nunito;
+  src: url(./fonts/Nunito.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(./fonts/OpenSans.ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(./fonts/Oswald.ttf);
+}
+@font-face {
+  font-family: Pacifico;
+  src: url(./fonts/Pacifico.ttf);
+}
+@font-face {
+  font-family: PermanentMarker;
+  src: url(./fonts/PermanentMarker.ttf);
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(./fonts/Playfair.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins.ttf);
+}
+@font-face {
+  font-family: PressStart2P;
+  src: url(./fonts/PressStart2P.ttf);
+}
+@font-face {
+  font-family: PTSerif;
+  src: url(./fonts/PTSerif.ttf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(./fonts/Quicksand.ttf);
+}
+@font-face {
+  font-family: Rajdhani;
+  src: url(./fonts/Rajdhani.ttf);
+}
+@font-face {
+  font-family: Raleway;
+  src: url(./fonts/Raleway.ttf);
+}
+@font-face {
+  font-family: Recursive;
+  src: url(./fonts/Recursive_Casual.ttf);
+}
+@font-face {
+  font-family: RedHatDisplay;
+  src: url(./fonts/RedHatDisplay.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto.ttf);
+}
+@font-face {
+  font-family: Rokkitt;
+  src: url(./fonts/Rokkitt.ttf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(./fonts/Rubik.ttf);
+}
+@font-face {
+  font-family: Sacramento;
+  src: url(./fonts/Sacramento.ttf);
+}
+@font-face {
+  font-family: ShadowsIntoLight;
+  src: url(./fonts/ShadowsIntoLight.ttf);
+}
+@font-face {
+  font-family: Slabo;
+  src: url(./fonts/Slabo.ttf);
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(./fonts/SourceCodePro.ttf);
+}
+@font-face {
+  font-family: SpaceMono;
+  src: url(./fonts/SpaceMono.ttf);
+}
+@font-face {
+  font-family: SyneMono;
+  src: url(./fonts/SyneMono.ttf);
+}
+@font-face {
+  font-family: Tangerine;
+  src: url(./fonts/Tangerine.ttf);
+}
+@font-face {
+  font-family: Teko;
+  src: url(./fonts/Teko.ttf);
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu.ttf);
+}
+@font-face {
+  font-family: Vollkorn;
+  src: url(./fonts/Vollkorn.ttf);
+}
+@font-face {
+  font-family: VT323;
+  src: url(./fonts/VT323.ttf);
+}
+@font-face {
+  font-family: WorkSans;
+  src: url(./fonts/WorkSans.ttf);
+}
+@font-face {
+  font-family: Zeyada;
+  src: url(./fonts/Zeyada.ttf);
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 15px 30px;
+  border-bottom: 1px solid var(--color-bg-light);
+  background-color: #0d0d0d;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 280px;
+  padding: 20px 10px;
+  background-color: var(--color-bg-light);
+  border-right: 1px solid var(--color-bg-dark);
+  overflow-y: auto;
+  height: calc(100vh - 58px);
+}
+
+.sidebar h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  color: var(--color-accent);
+}
+
+.font-browser {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.font-browser li {
+  font-size: var(--font-size-list);
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.font-browser li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.font-browser li.active {
+  background-color: var(--color-accent);
+  color: white;
+  font-weight: bold;
+}
+
+/* Sağ Alan: Önizleme */
+.preview-area {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+#current-font-name {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--color-bg-light);
+  padding-bottom: 10px;
+}
+
+.editable-text {
+  font-size: var(--font-size-preview);
+  line-height: 1.2;
+  padding: 20px 0;
+  outline: none;
+  cursor: text;
+  white-space: pre-wrap;
+  min-height: 200px;
+}
+
+.editable-text:empty:before {
+  content: attr(data-placeholder);
+  color: #555;
+  font-style: italic;
+  pointer-events: none;
+}
